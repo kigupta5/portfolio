@@ -1,0 +1,9 @@
+.jumbotron {
+  background-image: url('Images/background.jpg');
+  background-size: 1200px 800px;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color:white;;
+}
