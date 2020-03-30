@@ -1,9 +1,26 @@
+/*edits class to set background image for jumbotron*/
 .jumbotron {
-  background-image: url('Images/background.jpg');
-  background-size: 1200px 800px;
+  background-image: url('Images/background_2.jpg');
+  object-fit: cover;
   background-repeat: no-repeat;
 }
 
-.title {
-  color:white;;
+/* makes class that highlights text to be white*/
+.highlight {
+  background-color: rgba(255, 255, 255, 0.70);;
 }
+
+/*makes class to make background black*/
+.background {
+  background-color:black;
+}
+
+/*makes text with heading 5 text green*/
+h5 {
+  color:#1c793fe7;
+}
+
+/*creates class for indentation*/
+.tab {
+  margin-left: 30px; 
+  }
